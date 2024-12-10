@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap');
+
+
+body {
+  font-family: 'Jura', sans-serif;
+  font-size: 18px;
+  margin: 0;
+  background-color: #f9f9f9;
+  color: #4f4f4f;
+}
+
+button {
+  font-family: 'Jura', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;  
+  height: calc(100vh - 80px);  
+  padding: 16px;
+  padding-bottom: 80px; 
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.header .title {
+  flex-grow: 1;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+.back-button {
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: #6200ea;
+  cursor: pointer;
+}
+
+.add-button {
+  margin-left: auto;
+  background: none;
+  border: none;
+  color: #6200ea;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.filters {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+  justify-content: start;
+}
+
+.filter {
+  padding: 8px 16px;
+  border: 1px solid #6200ea;
+  border-radius: 16px;
+  background: #fff;
+  color: #6200ea;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.filter.active {
+  background: #6200ea;
+  color: #fff;
+}
+
+
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+  flex-grow: 1;
+  text-align: center;
+  margin-top: 0;
+}
+
+.empty-state .icon {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+.empty-state p {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.cta-button {
+  font-family: 'Jura', sans-serif;
+  font-weight: 600;
+  padding: 16px 24px;
+  background: transparent;
+  color: #6200ea;
+  border: 2px solid #6200ea;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+
+.bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  background: #6200ea;
+  padding: 16px 0;
+  border-radius: 16px 16px 0 0;
+  color: #fff;
+  position: fixed; 
+  bottom: 0; 
+  left: 0;
+  right: 0;
+}
+
+.bottom-nav .icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+
+.no-properties {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 0;
+}
+
+.no-properties p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.cta-button.cadastrar {
+  margin-top: 10px;
+  padding: 12px 24px;
+  font-size: 16px;
+}
+
+.welcome {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.welcome button {
+  margin-top: 8px;
+}
+
+.add-button span {
+  font-size: 20px; 
+  font-weight: 700; 
+}
+
